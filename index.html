@@ -1,0 +1,734 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+
+  <!-- Font Awesome Icon - CSS-->
+  <script src="https://kit.fontawesome.com/c9b6e045a4.js" crossorigin="anonymous"></script>
+
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <title>Michael Markin | Data Scientist</title>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Michael Markin | Data Scientist" />
+  <meta property="og:description" content="Data Scientist" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  <!-- NAVIGATION MENU -->
+  <!-- Nav Class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/linkedin-profile-pic-modified.png" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Articles section" href="#articles"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-description small"></i><span>Articles</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-equalizer small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav Class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Michael
+        Markin</a><span class="black-text">Data Scientist</span>
+    </div>
+  </nav>
+
+  <!-- Nav Class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Articles section" href="#articles" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Articles</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- First Section: Heading lines and profile image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hello, I'm <span class="teal">Michael Markin.</span></h2>
+              <h5 style="color:#fff">I do data <span class="typing" style="font-weight: 300; color:#004d40"></span>
+                <br>
+                And I strive within the intersection of finance and computer science.
+                <br><br>
+              </h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/michaelmarkin/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/misha345a" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+              <a href="https://medium.com/@michaelmarkin" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fab fa-medium-m"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container">
+        <blockquote>
+          <p>
+            To make a meaningful impact in the workplace (and the world),
+            it is not enough to be just a capable programmer.
+            It also takes someone who will ask creative questions after fully understanding
+            the workflows and data around them.
+          </p>
+        </blockquote>
+        <p>
+          <ul style="list-style: none;">
+            <li>
+              <img src="/assets/img/icons/heart.png" class="about-me-icons"></img>
+              &nbsp;I am a passionate Data Scientist with nearly 2 years of working experience.
+            </li>
+            <li>
+              <img src="/assets/img/icons/text.png" class="about-me-icons"></img>
+              &nbsp;Recently, my focus has been on unsupervised NLP.
+            </li>
+            <li>
+              <img src="/assets/img/icons/reading-eyeglasses.png" class="about-me-icons"></img>
+              &nbsp;I am graduating with an Honors degree in Finance & Business Analytics, and a minor in CS.
+            </li>
+            <li>
+              <img src="/assets/img/icons/laptop.png" class="about-me-icons"></img>
+              &nbsp;I am currently learning model deployment methods.
+            </li>
+            <li>
+              <img src="/assets/img/icons/candlestick.png" class="about-me-icons"></img>
+              &nbsp;I actively practice technical analysis stock trading.
+            </li>
+            <li>
+              <img src="/assets/img/icons/flash.png" class="about-me-icons"></img>
+              &nbsp;Fun fact: I first got into coding to create a trading algorithm in Python.
+            </li>
+            <li>
+              <img src="/assets/img/icons/green-tea.png" class="about-me-icons"></img>
+              &nbsp;I am self-motivated, always learning, and driven to excel.
+            </li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- NewLane Finance Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a><img alt="Newlane logo"
+                    src="/assets/img/newlane-logo.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a class="teal-text">NewLane Finance</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Scientist (Credit Risk & Lead-Scoring)</div>
+            <p>
+              I collaborated with the VP of underwriting to analyze and report on credit risk trends. I also worked with
+              the lead data scientist to advance the company's lead-scoring model using NLP.
+            </p>
+          </div>
+          <div class="card-action">
+            <span>September 2020 - December 2021 | Philadelphia, PA</span>
+          </div>
+        </div>
+
+        <!-- Glenmede Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a><img alt="Glenmede logo"
+                    src="/assets/img/glenmede-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a class="teal-text">Glenmede</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Scientist Co-op (Fixed Income)</div>
+            <p>
+              I worked alongside traders and portfolio managers to automate workflows and build
+              custom dashboards from portfolio data.
+            </p>
+          </div>
+          <div class="card-action">
+            <span>September 2019 - March 2020 | Philadelphia, PA</span>
+          </div>
+        </div>
+
+        <!-- Schnader Harrison Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a><img alt="Schnader Harrison logo"
+                    src="/assets/img/schnader-harrison-logo.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a class="teal-text">Schnader Harrison</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Analyst Co-op (Marketing)</div>
+            <p>
+              I joined the marketing team to provide insights on website traffic.
+              I also developed a Python script to webscrape relevant business proposals from county websites.
+            </p>
+          </div>
+          <div class="card-action">
+            <span>September 2018 - March 2019 | Philadelphia, PA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <!-- NJ Beach Tracker -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <h5>Click on a card to expand it.</h5>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="nj beach tracker" src="/assets/img/beach-ocean-coastal-landscape.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">NJ Beach Tracker
+                  <i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A website that helps people find the best New Jersey beach on any given day.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                  The site provides a live 5-day report of weather forecast information for 28
+                  of New Jersey's most popular beaches. Driving times to each beach can also
+                  be compared once an address is entered.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://nj-beach-tracker.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/misha345a/NJ_Beach_Tracker"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sentiment Predictor -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/flat-emoticon-reactions.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Sentiment Predictor<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Dockerized Flask app that predicts sentiment on user-inputted text.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                  This project deploys a simple sentiment prediction interface using Flask and Docker.
+                  Once a user enters a valid text input, sentiment is automatically
+                  predicted and displayed as POSITIVE or NEGATIVE along with the model's
+                  confidence score for that prediction.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit " href="http://flask-sentiment-predictor.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for project" href="https://github.com/misha345a/Docker_Sentiment_Predictor"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom NER Model -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/two-repairmen-fixing-washing-machine-handymen.jpg"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">
+                  Custom NER Model<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Auto-detecting home improvement services within unstructured text.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                Building a custom Named Entity Recognition (NER) from scratch using the latest version of spaCy v3.
+                After annotating and training on a mini dataset, the model is able to identify
+                various types of home improvement and contractor services within unstructured text.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/misha345a/Custom_Named_Entity_Recognition"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Python-to-Excel Techniques -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/spreadsheets-concept-illustration.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Python-to-Excel Techniques<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Python walkthrough demonstrating methods of writing to existing Excel files.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                  I show how to use the Openpyxl library to write data to existing Excel workbooks,
+                  automatically modify cell styling/formatting, as well as to
+                  insert Python graphs as images to Excel.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/misha345a/MEDIUM_DataFrames_to_Excel" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Urban Dictionary Bot -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/bot-mobile-phone.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Urban Dictionary Bot<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Automatically search slang and upvote on UrbanDictionary.com using a ChromeDriver.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                  The script allows a user to input a slang term,
+                  which will then be automatically searched and upvoted on UrbanDictionary.com using
+                  Selenium and a ChromeDriver.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/misha345a/Urban_Dictionary_Bot"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- E-commerce Reviews Classifier -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/queue-people-shopping.jpg"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">E-commerce Reviews Classifier
+                  <i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Visual analysis and model training on a dataset of clothing reviews.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p>
+                  A supervised text classification model is built using various
+                  text preprocessing methods, TF-IDF, and an ensemble of Scikit-learn models.
+                </p>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/misha345a/E-commerce_Reviews_Classifier"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Articles -->
+    <section id="articles" class="section scrollspy">
+      <h3 class="page-title white-text teal">Articles</h3>
+      <div class="container">
+        <p style="font-size: 16pt;">
+          I am actively writing on <a href="https://medium.com/@michaelmarkin" target="_blank"
+          class="teal-text hoverline">Medium.</a>
+          <br>
+          Check out my recently published work.
+        </p>
+        <div id="medium-widget"></div>
+          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+          <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@michaelmarkin/","postsPerLine":1,"limit":5,"picture":"small","fields":["description","claps","publishAt"],"ratio":"landscape"}})</script>
+      </div>
+    </section>
+
+    <!-- Sixth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Languages -->
+          <div class="col" style="margin-right:50px;">
+            <ul style="list-style: none;">
+              <h5><b>Languages</b></h5>
+              <li>• Python</li>
+              <li>• JavaScript</li>
+              <li>• HTML/CSS</li>
+              <li>• R</li>
+              <li>• Bash</li>
+              <li>• Bloomberg BQL</li>
+              <li>• SQL</li>
+            </ul>
+          </div>
+
+          <!-- Web Development -->
+          <div class="col" style="margin-right:50px;">
+            <ul style="list-style: none;">
+              <h5><b>Web Development</b></h5>
+              <li>• Node.js</li>
+              <li>• Express</li>
+              <li>• Flask</li>
+              <li>• Axios</li>
+              <li>• Bootstrap</li>
+              <li>• DataTables</li>
+            </ul>
+          </div>
+
+          <!-- Tools & Technologies -->
+          <div class="col">
+            <ul style="list-style: none;">
+              <h5><b>Tools & Technologies</b></h5>
+              <li>• Excel & Analysis ToolPak</li>
+              <li>• Tableau</li>
+              <li>• Jupyter Notebook</li>
+              <li>• Git/GitHub</li>
+              <li>• Microsoft SQL Server</li>
+              <li>• Docker</li>
+              <li>• Heroku</li>
+            </ul>
+          </div>
+
+        </div>
+        <hr>
+
+        <!-- Python Libraries -->
+        <div>
+          <img align="left" alt="Python logo" src="/assets/img/python-logo.jpg"
+          class="responsive-img" HSPACE="4" VSPACE="15"></img>
+          <p>
+            <b>Python</b> is my language of choice. <br>
+            I am experienced with data processing, web scraping, and machine learning projects. <br>
+          </p>
+        </div>
+
+        <div class="col-10">
+          <p>
+            Below are my most frequently used libraries. <br>
+            <br>
+            <u>Data processing</u>:
+            Pandas, Regex, Matplotlib, Seaborn, Openpyxl
+            <br>
+            <u>Webscraping</u>:
+            BeautifulSoup4, Selenium, Requests
+            <br>
+            <u>Machine Learning</u>:
+            Scikit-learn, Transformers, SpaCy, XGBoost, Gensim
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Education Card -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a class="teal-text">Drexel University</a>
+                  </span>
+                </p>
+                <p class="brown-text">Philadelphia, PA</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Science in Business Administration
+                  <br>
+                  <b>Majors: </b>Finance and Business Analytics
+                  <br>
+                  <b>Minor: </b>Computer Science
+                  <br>
+                  <b>Cumulative GPA: </b>3.74/4.0
+                </p>
+
+                <!-- Relevant Coursework -->
+                <ul>
+                  <p>
+                    <b>Relevant Coursework:</b>
+                    <br>
+                    • Artificial Intelligence<br>
+                    • Robust Machine Learning<br>
+                    •	Database Design & Implementation<br>
+                    • Statistical Inference<br>
+                    • Programming for Data Analytics (R Studio)<br>
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eighth Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="View me on LinkedIn" href="https://www.linkedin.com/in/michaelmarkin/" target="_blank"
+            data-position="top" data-tooltip="View me on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Michael on LinkedIn" href="https://www.linkedin.com/in/michaelmarkin/"
+              class="hoverline" target="_blank">linkedin.com/in/michaelmarkin/</a></a>
+        </p>
+        <p>
+          <a aria-label="Email me" href="mailto:michaelmarkin276@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email me" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Michael" href="mailto:michaelmarkin276@gmail.com"
+              class="hoverline">michaelmarkin276@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View me on GitHub" href="https://github.com/misha345a" target="_blank"
+            data-position="top" data-tooltip="View me on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Michael on Github" href="https://github.com/misha345a" class="hoverline"
+              target="_blank">github.com/misha345a</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["science.",
+                "mining.",
+                "storytelling.",
+                "analysis.",
+                "reporting.",
+                "insights.",
+                "wrangling.",
+                "automation.",
+                "visualization.",
+                "processing."
+              ],
+      loop: true,
+      typeSpeed: 40,
+      backSpeed: 20
+    });
+  </script>
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+
+</body>
+</html>
