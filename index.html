@@ -14,6 +14,9 @@
 
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
+  
+  <!-- Medium Articles Widget -->
+  <script src="/assets/src/medium-blogpost-widget.js"></script>
 
   <title>Michael Markin | Data Scientist</title>
 
@@ -525,6 +528,10 @@
           <br>
           Check out my recently published work.
         </p>
+        <div>
+          <medium-blogpost username="michaelmarkin"></medium-blogpost>
+        </div>
+
         <div id="medium-widget"></div>
           <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
           <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@michaelmarkin/","postsPerLine":1,"limit":5,"picture":"small","fields":["description","claps","publishAt"],"ratio":"landscape"}})</script>
